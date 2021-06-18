@@ -1,0 +1,41 @@
+.navbar{
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.navigation ul li{
+    display:none;
+    margin: 0 .6rem;
+    cursor: pointer;
+
+    &:hover{
+        color: $orange;
+    }
+}
+
+.navigation{
+    &__menu{
+       color: $white;
+       font-size: $x-large;
+       margin-top: .2rem;
+       cursor: pointer;
+    }
+    &__menu:hover{
+        color: $orange;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .navigation ul li{
+        display:inline;
+    }
+
+    .navigation__menu{
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+@keyframes move{
+    0% {left: 0px}
+    50% {left: 50px}
+    100% {left: 0px}
+}
+
+path .bracket{
+    animation: move 3s ease-in-out infinite;
+}

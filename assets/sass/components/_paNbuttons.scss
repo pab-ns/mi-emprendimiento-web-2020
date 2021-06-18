@@ -1,0 +1,10 @@
+// Botones
+button{
+    background-color: $tangerine;
+    border-radius: 10%;
+    border: 1px solid $white;
+
+    &:hover{
+        background-color: $white;
+    }
+}

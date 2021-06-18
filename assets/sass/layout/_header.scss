@@ -1,0 +1,10 @@
+.header-img{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .header-img__svg{
+        width: 600px;
+    }
+}

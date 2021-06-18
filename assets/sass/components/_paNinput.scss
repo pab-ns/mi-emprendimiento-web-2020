@@ -1,0 +1,10 @@
+// Input
+input{
+    border-radius: 5%;
+    border: 1px solid $white;
+
+    &:focus{
+        background-color: $tangerine;
+    }
+}
+

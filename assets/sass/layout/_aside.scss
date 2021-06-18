@@ -1,0 +1,75 @@
+
+.aside{
+    border: 1px solid $black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 98%;
+    margin: 1rem auto;
+
+    &__container{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 2px solid $black;
+        margin: 1rem 0;
+    }
+}
+
+
+.profile__info{
+text-align: center;
+
+    & i{
+        margin: 0 .3rem;
+        font-size: $large;
+    }
+
+    & p{
+        text-align: left;
+        margin-top: 1rem;
+    }
+}
+
+.profile__banner{
+    display: flex;
+    background-color: $charcoal;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & h6{
+        margin-top: .4rem;
+    }
+}
+
+.aside-list {
+    ul{
+    list-style: none
+    }
+    ul li::before{
+        content: "\26AC";
+        color: $charcoal;
+        display: inline-block;
+        width: 2rem;
+        margin-left: -2rem;
+    }
+
+}
+
+.aside-img{
+    display: flex;
+    justify-content: center;
+}

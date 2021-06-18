@@ -1,0 +1,38 @@
+.main{
+    border: 1px solid $black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 98%;
+    margin: 1rem auto;
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+        justify-content: center;
+    }
+}
+
+.card-content{
+    border: 1px dotted $black;
+    width: 95%;
+    padding: .4rem;
+    margin: .4rem auto;
+
+    &__text i{
+        margin: 0 .3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-content__text h1{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
